@@ -74,13 +74,13 @@ main h3 {
   color: brown;
  
 }
-.col-md-4 .span-main-social a {
+.col-sm-4 .span-main-social a {
   text-decoration: none;
   font-size: 1.2rem;
   color: chocolate;
   margin-right: 1rem;
 }
-.col-md-4 .span-main-social img{
+.col-sm-4 .span-main-social img{
     border-radius: 50%;
 }
 footer {
@@ -109,12 +109,12 @@ footer .form {
 .form .btn {
   margin-left: 1rem;
 }
-.col-md-4 .span-main-images img {
-  border: 0.5rem solid red;
+.col-sm-4 .span-main-images img {
+  border: 0.2rem solid red;
   border-style: double;
   margin-left: 2rem;
 }
-.col-md-4 .span-main-images p{
+.col-sm-4 .span-main-images p{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,7 +136,7 @@ footer .form {
 .form-rezervare .btn:hover{
   background-color: red;
 }
-.col-md-3 .span-main-images p{
+.col-sm-3 .span-main-images p{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,8 +144,8 @@ footer .form {
   font-size: 1.3rem;
   color: blueviolet;
 }
-.col-md-3 .span-main-images img {
-  border: 0.5rem solid red;
+.col-sm-3 .span-main-images img {
+  border: 0.2rem solid red;
   border-style: double;
   margin-left: 2rem;
 }
