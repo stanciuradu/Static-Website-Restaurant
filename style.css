@@ -4,14 +4,20 @@
 
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   background-color: brown;
 }
+
+@media (max-width: 768px) { 
+  .header{
+    flex-direction: column;
+  }
+ }
+
 .header img {
-  width: 10rem;
-  height: auto;
+  width: 8rem;
   border-radius: 30%;
 }
 
@@ -36,9 +42,15 @@
   align-items: center;
   font-family: "Viaoda Libre", cursive;
 }
-.col-6 img {
+
+@media (max-width: 768px) { 
+  .nav a{
+    flex-direction: column;
+  }
+ }
+.col-md-6 img {
   width: 20rem;
-  margin-left: 10rem;
+  border-radius: 30%;
 }
 .row {
   display: flex;
@@ -46,7 +58,7 @@
   align-items: center;
   padding: 4rem;
 }
-.col-6 p {
+.col-md-6 p {
   margin-right: 2rem;
   font-family: "Viaoda Libre", cursive;
   font-size: 1.2rem;
@@ -62,13 +74,13 @@ main h3 {
   color: brown;
  
 }
-.col-4 .span-main-social a {
+.col-md-4 .span-main-social a {
   text-decoration: none;
   font-size: 1.2rem;
   color: chocolate;
   margin-right: 1rem;
 }
-.col-4 .span-main-social img{
+.col-md-4 .span-main-social img{
     border-radius: 50%;
 }
 footer {
@@ -85,6 +97,11 @@ footer .form {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 768px) { 
+  footer .form{
+    flex-direction: column;
+  }
+ }
 .form label {
   margin-right: 1rem;
   font-family: "Viaoda Libre", cursive;
@@ -92,12 +109,12 @@ footer .form {
 .form .btn {
   margin-left: 1rem;
 }
-.col-4 .span-main-images img {
+.col-md-4 .span-main-images img {
   border: 0.5rem solid red;
   border-style: double;
   margin-left: 2rem;
 }
-.col-4 .span-main-images p{
+.col-md-4 .span-main-images p{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,4 +127,25 @@ footer .form {
   flex-direction: column;
   width: 20rem;
   margin: 0 auto;
+}
+
+.form-rezervare .btn{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.form-rezervare .btn:hover{
+  background-color: red;
+}
+.col-md-3 .span-main-images p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Viaoda Libre", cursive;
+  font-size: 1.3rem;
+  color: blueviolet;
+}
+.col-md-3 .span-main-images img {
+  border: 0.5rem solid red;
+  border-style: double;
+  margin-left: 2rem;
 }
