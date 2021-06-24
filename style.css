@@ -48,7 +48,7 @@
     flex-direction: column;
   }
  }
-.col-md-6 img {
+.col-sm-6 img {
   width: 20rem;
   border-radius: 30%;
 }
@@ -58,7 +58,7 @@
   align-items: center;
   padding: 4rem;
 }
-.col-md-6 p {
+.col-sm-6 p {
   margin-right: 2rem;
   font-family: "Viaoda Libre", cursive;
   font-size: 1.2rem;
