@@ -1,6 +1,7 @@
 # Static-Website-Restaurant
 # Deciere sumară:
 Website dedicat unui restaunrant tradițional romănesc cu trei pagini:
+#
 ->Pagina de prezentare
 #
 ->Pagina de meniu
